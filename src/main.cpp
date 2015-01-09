@@ -34,7 +34,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Dogecoin cannot be compiled without assertions."
+# error "Roflcoin cannot be compiled without assertions."
 #endif
 
 //
@@ -80,7 +80,7 @@ void EraseOrphansFor(NodeId peer);
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Dogecoin Signed Message:\n";
+const string strMessageMagic = "Roflcoin Signed Message:\n";
 
 // Internal stuff
 namespace {
